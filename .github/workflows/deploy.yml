@@ -11,7 +11,7 @@ jobs:
 
     steps:
       - name: Checkout Code
-        users: actions/checkout@v4
+        user: actions/checkout@v4
 
       - name: Deploy Via SSH
         user: appleboy/ssh-action@v1.0.3
