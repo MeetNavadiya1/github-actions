@@ -5,7 +5,7 @@ const PORT = process.env.PORT || 8080
 
 app.get('/', (req, res) => {
     return res.json({
-        massage: "Hello from the server v1"
+        massage: "Hello from the server v2 deploy"
     })
 })
 
