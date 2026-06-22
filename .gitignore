@@ -1,3 +1,7 @@
+# SSH Keys
+private
+private.pub
+
 # Logs
 logs
 *.log
