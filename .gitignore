@@ -2,6 +2,9 @@
 private
 private.pub
 
+#reference folder
+/reference
+
 # Logs
 logs
 *.log
