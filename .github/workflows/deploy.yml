@@ -35,7 +35,7 @@ jobs:
           exit 1
 
       - name: Health Check
-        run: curl --fail http://localhost:3000/health
+        run: curl --fail http://localhost:8080/health
 
       - name: Deploy to EC2 Via SSH
         uses: appleboy/ssh-action@v1.0.3
